@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
-  headers: {
-    'Content-Type': 'application/json'
-  }
+    baseURL: 'https://sistema-spartanconveyors.onrender.com/api', // <--- URL DE TU BACKEND
+    headers: {
+        'Content-Type': 'application/json'
+    }
 });
 
 // Interceptor para agregar token a todas las peticiones
