@@ -2,7 +2,7 @@ import React, { createContext, useState, useContext, useEffect } from 'react';
 import axios from 'axios';
 
 // Configurar la URL del backend
-const API_URL = import.meta.env.VITE_API_URL || 'https://sistema-spartanconveyors.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL || 'https://sistema-spartanconveyors.onrender.com/api';
 
 const AuthContext = createContext();
 
