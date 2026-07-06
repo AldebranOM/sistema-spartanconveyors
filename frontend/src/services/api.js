@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://sistema-spartanconveyors.onrender.com/api', // <--- URL CORRECTA DEL BACKEND
+    baseURL: 'https://sistema-spartanconveyors.onrender.com', // <--- URL CORRECTA DEL BACKEND
     headers: {
         'Content-Type': 'application/json'
     }
